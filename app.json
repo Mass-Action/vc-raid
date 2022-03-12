@@ -75,7 +75,7 @@
             "required": false
         },
         "ALIVE_PIC": {
-            "description": "Pyrogram String Session",
+            "description": "Alive Pic or video (telegraph link)",
             "required": false
         },
         "API_HASH": {
