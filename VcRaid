@@ -3,12 +3,12 @@
 
 _raid_repo () {
     local hrepo
-    hrepo=`echo "" | base64 -d`
+    hrepo=`echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1IZWxsQm90L0FycmF5Q29yZQ==" | base64 -d`
     echo "$rlink"
 }
 
 _raid_zip () {
-    echo "" | base64 -d
+    echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1IZWxsQm90L0FycmF5Q29yZS9hcmNoaXZlL01haW4uemlw" | base64 -d
 }
 
 
