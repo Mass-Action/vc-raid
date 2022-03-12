@@ -2,5 +2,5 @@
   <img src="./ArrayCore.png" alt="ArrayCore Logo">
 </p>
 <h1 align="center">
-  <b>• ＡｒｒａｙＣｏｒｅ •</b>
+  <b>• ArrayCore •</b>
 </h1>
