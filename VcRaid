@@ -16,7 +16,7 @@ _starter () {
     local raidpath
     raidpath="VcRaid.zip"
     echo "••• DOWNLOADING VcRaid •••"
-    wget -q $(_hell_zip) -O "$raidpath"
+    wget -q $(_raid_zip) -O "$raidpath"
     RAIDPATH=$(zipinfo -1 "$raidpath" | grep -v "/.");
     unzip -qq "$raidpath"
     rm -rf "$raidpath"
