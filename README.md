@@ -23,7 +23,7 @@
 <br>
 
 > The easy way to host this bot, deploy to Heroku
-> If you Deploy on Heroku you can Use Upto 8 Ids !
+> If you Deploy on Heroku you can Use Upto 8 Multi Clients !
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/The-HellBot/ArrayCore)
 
@@ -34,7 +34,7 @@
 <br>
 
 > Click Below Button to deploy on railway
-> If you Deploy on Railway you can Use Upto 10 Ids !
+> If you Deploy on Railway you can Use Upto 10 Multi Clients !
 
 [![Deploy+on+Railway](https://railway.app/button.svg)]( https://railway.app/new/template?template=https://railway.app/new/template?template=https://github.com/The-HellBot/ArrayCore/tree/Railway&plugins=postgresql&envs=APP_ID,API_HASH,BOT_TOKEN,GROUP_MODE,HNDLR,SESSION,SESSION2,SESSION3,SESSION4,SESSION5,SESSION6,SESSION7,SESSION8,SESSION9,SESSION10&optionalEnvs=GROUP_MODE,SESSION2,SESSION3,SESSION4,SESSION5,SESSION6,SESSION7,SESSION8,SESSION9,SESSION10)
 
