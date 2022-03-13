@@ -3,7 +3,7 @@ import asyncio
 from pyrogram import idle
 
 from . import (Venom1, Venom2, Venom3, Venom4,
-               Venom5, Venom6, Venom7, Venom8, vcbot)
+               Venom5, Venom6, Venom7, Venom8, Venom9, Venom10, vcbot)
 from . import (call_py1, call_py2, call_py3, call_py4,
                call_py5, call_py6, call_py7, call_py8)
 
@@ -82,6 +82,24 @@ async def startup():
         except Exception as e:
             print(str(e))
     
+    if Venom9:
+        try:
+            await Venom9.start()
+            await Venom9.join_chat("ArrayCore")
+            await Venom9.join_chat("RiZoeLX")
+            await Venom9.join_chat("Its_Hellbot")
+        except Exception as e:
+            print(str(e))
+
+    if Venom10:
+        try:
+            await Venom10.start()
+            await Venom10.join_chat("ArrayCore")
+            await Venom10.join_chat("RiZoeLX")
+            await Venom10.join_chat("Its_Hellbot")
+        except Exception as e:
+            print(str(e))
+
 
     await vcbot.start()
     get_me = await vcbot.get_me()
@@ -107,6 +125,10 @@ async def startup():
     if call_py7:
         await call_py7.start()
     if call_py8:
+        await call_py8.start()
+    if call_py9:
+        await call_py8.start()
+    if call_py10:
         await call_py8.start()
     
     # STARTUP COMPLETED
