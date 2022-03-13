@@ -26,6 +26,8 @@ SESSION5 = os.getenv("SESSION5", None)
 SESSION6 = os.getenv("SESSION6", None)
 SESSION7 = os.getenv("SESSION7", None)
 SESSION8 = os.getenv("SESSION8", None)
+SESSION9 = os.getenv("SESSION9", None)
+SESSION10 = os.getenv("SESSION10", None)
 HNDLR = os.getenv("HNDLR", "!")
 GROUP_MODE = os.getenv("GROUP_MODE", "True")
 START_VID = os.getenv("START_VID", None)
@@ -127,6 +129,19 @@ else:
     Venom8 = None
     call_py8 = None
 
+if SESSION9:
+    Venom9 = Client(SESSION9, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'ArrayCore.vc'})
+    call_py9 = PyTgCalls(Venom10)
+else:
+    Venom9 = None
+    call_py9 = None
+
+if SESSION10:
+    Venom10 = Client(SESSION10, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'ArrayCore.vc'})
+    call_py10 = PyTgCalls(Venom10)
+else:
+    Venom10 = None
+    call_py10 = None
 #----------------------------------------------------------------
 
 HELP_DICT["Music Player"] = f"""
