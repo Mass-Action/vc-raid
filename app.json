@@ -5,16 +5,18 @@
     "keywords": [
         "Telegram",
         "VCBot",
-        "MusicPlayer"
+        "MusicPlayer",
+        "ArrayCore",
+        "vcraid"
     ],
-    "repository": "https://github.com/Desinobita/TgVcUsers",
+    "repository": "https://github.com/Desinobita",
     "env": {
         "SESSION": {
             "description": "Pyrogram String Session.",
             "required": true
         },
         "API_ID": {
-            "description": "my.telegram.org",
+            "description": "Api Id Get this value from my.telegram.org",
             "required": true
         },
         "SESSION2": {
@@ -50,11 +52,11 @@
             "required": false
         },
         "API_HASH": {
-            "description": "my.telegram.org",
+            "description": "Api hash get this value from my.telegram.org",
             "required": true
         },
         "HNDLR": {
-            "description": "Handler | Default (!)",
+            "description": "cmd Handler | Default (!)",
             "value": "!",
             "required": true
         },
@@ -68,7 +70,7 @@
             "required": true
         },
         "SUDO_USERS": {
-            "description": "USER ID OF THOSE PEOPLE WHO CAN CONTROL THE BOT",
+            "description": "Sudo Users id space by space (Users who can control bot)",
             "required": true 
         }
     },
