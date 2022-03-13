@@ -44,7 +44,7 @@
 <summary><b>• Session String</b></summary>
 <br>
 
-> You'll need a API_ID & API_HASH in order to generate pyrogram session string. Get This Values from [Here.](my.telegram.org)
+> You'll need a API_ID & API_HASH in order to generate pyrogram session string. Get This Values from [Here.](https://my.telegram.org)
 
 <h4> Generate Session via Repl.it: </h4>    
 <p><a href="https://replit.com/@TheHellBot/HellBot?v=1"><img src="https://img.shields.io/badge/Generate%20On%20Repl-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a></p>
