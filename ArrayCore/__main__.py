@@ -5,7 +5,7 @@ from pyrogram import idle
 from . import (Venom1, Venom2, Venom3, Venom4,
                Venom5, Venom6, Venom7, Venom8, Venom9, Venom10, vcbot)
 from . import (call_py1, call_py2, call_py3, call_py4,
-               call_py5, call_py6, call_py7, call_py8)
+               call_py5, call_py6, call_py7, call_py8, call_py9, call_py10)
 
 
 async def startup():
