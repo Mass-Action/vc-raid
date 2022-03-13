@@ -47,14 +47,16 @@
 > You'll need a API_ID & API_HASH in order to generate pyrogram session string. Get This Values from [Here.](my.telegram.org)
 
 <h4> Generate Session via Repl.it: </h4>    
-<p><a href="https://replit.com/@TheHellBot/HellBot?v=1?lite=1&outputonly=1#main.py"><img src="https://img.shields.io/badge/Generate%20On%20Repl-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a></p>
+<p><a href="https://replit.com/@TheHellBot/HellBot?v=1"><img src="https://img.shields.io/badge/Generate%20On%20Repl-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a></p>
 
 </details>
 
-# Credits 
-- [Vemon](https://github.com/Desinobita) ``Creator``
-- [HellBoy](https://github.com/HellBoy-OP) ``Dev``
-- [RiZoeL](https://github.com/MrRizoel) ``Dev``
-- [pytgcalls](https://github.com/pytgcalls/pytgcalls)  
-- [Pyrogram](https://github.com/pyrogram/pyrogram)
+# Credits
+- Team
+  - [Vemon](https://github.com/Desinobita)   ``Creator``
+  - [HellBoy](https://github.com/HellBoy-OP) ``Dev``
+  - [RiZoeL](https://github.com/MrRizoel)    ``Dev``
 
+- Libraries
+  - [pytgcalls](https://github.com/pytgcalls/pytgcalls)
+  - [Pyrogram](https://github.com/pyrogram/pyrogram)
