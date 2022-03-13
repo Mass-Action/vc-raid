@@ -17,7 +17,7 @@ from pytgcalls.types.input_stream.quality import (HighQualityAudio, HighQualityV
 from ArrayCore.vc.queues import QUEUE, add_to_queue, get_queue, clear_queue
 
 from .. import (call_py1, call_py2, call_py3, call_py4,
-                    call_py5, call_py6, call_py7, call_py8, vcbot, 
+                    call_py5, call_py6, call_py7, call_py8, call_py9, call_py10, vcbot, 
                     HNDLR, SUDO_USERS, Venom1)
 
 logging.basicConfig(level=logging.INFO)
@@ -68,6 +68,10 @@ async def vcraid(_, e: Message):
                 await call_py7.join_group_call(chat_id, AudioPiped(dl), stream_type=StreamType().pulse_stream)
             if call_py8:
                 await call_py8.join_group_call(chat_id, AudioPiped(dl), stream_type=StreamType().pulse_stream)
+            if call_py9:
+                await call_py9.join_group_call(chat_id, AudioPiped(dl), stream_type=StreamType().pulse_stream)
+            if call_py10:
+                await call_py10.join_group_call(chat_id, AudioPiped(dl), stream_type=StreamType().pulse_stream)
             add_to_queue(chat_id, songname, dl, link, "Audio", 0)
             await TheVenomXD.delete()
             await e.reply_text(f"**> Raiding in:** {chat_.title} \n\n**> Audio:** {songname} \n**> Position:** Ongoing Raid")
@@ -101,6 +105,10 @@ async def ping(_, e: Message):
                 await call_py7.leave_group_call(chat_id)
             if call_py8:
                 await call_py8.leave_group_call(chat_id)
+            if call_py9:
+                await call_py9.leave_group_call(chat_id)
+            if call_py10:
+                await call_py10.leave_group_call(chat_id)
             clear_queue(chat_id)
             await e.reply_text("**VC Raid Ended!**")
         except Exception as ex:
@@ -137,6 +145,10 @@ async def ping(_, e: Message):
                 await call_py7.pause_stream(chat_id)
             if call_py8:
                 await call_py8.pause_stream(chat_id)
+            if call_py9:
+                await call_py9.pause_stream(chat_id)
+            if call_py10:
+                await call_py10.pause_stream(chat_id)
             await e.reply_text(f"**VC Raid Paued In:** {chat_.title}")
         except Exception as e:
             await e.reply_text(f"**ERROR** \n`{e}`")
@@ -172,6 +184,10 @@ async def ping(_, e: Message):
                 await call_py7.resume_stream(chat_id)
             if call_py8:
                 await call_py8.resume_stream(chat_id)
+            if call_py9:
+                await call_py9.resume_stream(chat_id)
+            if call_py10:
+                await call_py10.resume_stream(chat_id)
             await e.reply_text(f"**VC Raid Resumed In {chat_.title}**")
         except Exception as e:
             await e.reply_text(f"**ERROR** \n`{e}`")
