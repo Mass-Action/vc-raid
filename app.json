@@ -46,34 +46,6 @@
             "description": "Pyrogram String Session",
             "required": false
         },
-        "SESSION9": {
-            "description": "Pyrogram String Session",
-            "required": false
-        },
-        "SESSION10": {
-            "description": "Pyrogram String Session",
-            "required": false
-        },
-        "SESSION11": {
-            "description": "Pyrogram String Session",
-            "required": false
-        },
-        "SESSION12": {
-            "description": "Pyrogram String Session",
-            "required": false
-        },
-        "SESSION13": {
-            "description": "Pyrogram String Session",
-            "required": false
-        },
-        "SESSION14": {
-            "description": "Pyrogram String Session",
-            "required": false
-        },
-        "SESSION15": {
-            "description": "Pyrogram String Session",
-            "required": false
-        },
         "ALIVE_PIC": {
             "description": "Alive Pic or video (telegraph link)",
             "required": false
