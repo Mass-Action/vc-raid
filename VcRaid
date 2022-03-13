@@ -1,6 +1,10 @@
 #!/bin/bash
 
 
+_python_() {
+    python3${pVer%.*} -c "$1"
+}
+
 _raid_repo () {
     local hrepo
     hrepo=`echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1IZWxsQm90L0FycmF5Q29yZQ==" | base64 -d`
@@ -15,14 +19,14 @@ _raid_zip () {
 _starter () {
     local raidpath
     raidpath="VcRaid.zip"
-    echo "••• DOWNLOADING VcRaid •••"
+    echo "••• DOWNLOADING ArrayCore •••"
     wget -q $(_raid_zip) -O "$raidpath"
     RAIDPATH=$(zipinfo -1 "$raidpath" | grep -v "/.");
     unzip -qq "$raidpath"
     rm -rf "$raidpath"
     cd $RAIDPATH
     python3 ../raid/updater.py ../requirements.txt requirements.txt
-    echo "••• STARTING VcRaid •••"
+    echo "••• STARTING ArrayCore •••"
     python3 -m ArrayCore
 }
 
