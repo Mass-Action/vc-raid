@@ -56,7 +56,7 @@
         "HNDLR": {
             "description": "Handler | Default (!)",
             "value": "!",
-            "required": false 
+            "required": true
         },
         "GROUP_MODE": {
             "description": "Anyone can play, if set to True. Set it to False to restrict play access to Sudo Users/Contacts only",
