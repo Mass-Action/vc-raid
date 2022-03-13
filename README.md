@@ -12,7 +12,7 @@
 - sudo apt install ffmpeg -y
 - nvm install v16.5.0
 - npm i -g npm
-- bash local.sh
+- bash Local.sh
 - nano .env #Fill it with your variables value.
 - python3 -m ArrayCore
 ```
