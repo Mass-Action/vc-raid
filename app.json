@@ -19,6 +19,10 @@
             "description": "Api Id Get this value from my.telegram.org",
             "required": true
         },
+        "ALIVE_PIC": {
+            "description": "Alive Pic or video (telegraph link)",
+            "required": false
+        },
         "SESSION2": {
             "description": "Pyrogram String Session",
             "required": false
