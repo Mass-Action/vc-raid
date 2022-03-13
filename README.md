@@ -8,7 +8,7 @@
 # Features 
 
 - [x] Vc raid
-- [x] Deploy Upto 15 ids
+- [x] Deploy Upto 10 Ids
 - [x] YT play
 - [x] Audio Play
 - [x] Join/leave
