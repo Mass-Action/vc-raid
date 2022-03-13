@@ -8,7 +8,7 @@
 # Features 
 
 - [x] Vc raid
-- [x] Deploy Upto 10 Clients
+- [x] Deploy Upto 10 Multi Clients
 - [x] YT play
 - [x] Audio Play
 - [x] Join/leave
