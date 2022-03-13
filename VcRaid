@@ -2,7 +2,7 @@
 
 
 _raid_zip () {
-    echo "" | base64 -d
+    echo "aHR0cHM6Ly9naXRodWIuY29tL2Rlc2lub2JpdGEvVGdWY1VzZXJzL2FyY2hpdmUvbWFpbi56aXA=" | base64 -d
 }
 
 
