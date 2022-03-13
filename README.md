@@ -14,6 +14,7 @@
 - [x] Join/leave 
 
 # Deployment ✨
+> Click On buttons to expand !
 
 <details>
 <summary><b>• Heroku Deployment </b></summary>
