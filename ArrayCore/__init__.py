@@ -20,7 +20,7 @@ API_ID = int(os.getenv("API_ID", ""))
 API_HASH = os.getenv("API_HASH", "")
 ALIVE_PIC = os.getenv("ALIVE_PIC", "")
 BOT_TOKEN = os.getenv("BOT_TOKEN", None)
-SESSION1 = os.getenv("SESSION", None)
+SESSION = os.getenv("SESSION", None)
 GROUP_MODE = os.getenv("GROUP_MODE", "True")
 START_VID = os.getenv("START_VID", None)
 
@@ -65,9 +65,9 @@ else:
 
 
 #-------------------------CLIENTS-----------------------------
-if SESSION1:
-    Venom1 = Client(SESSION1, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'ArrayCore.vc'})
-    call_py1 = PyTgCalls(Venom1)
+if SESSION:
+    Venom = Client(SESSION, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'ArrayCore.vc'})
+    call_py = PyTgCalls(Venom1)
 else:
-    Venom1 = None
-    call_py1 = None
+    Venom = None
+    call_py = None
