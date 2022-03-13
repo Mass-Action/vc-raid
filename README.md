@@ -11,7 +11,9 @@
 - [x] Deploy Upto 15 ids
 - [x] YT play
 - [x] Audio Play
-- [x] Join/leave 
+- [x] Join/leave
+- [x] Pause/Resume
+- [x] End
 
 # Deployment ✨
 > Click On buttons to expand !
