@@ -15,7 +15,7 @@ from pytgcalls.types.input_stream.quality import (HighQualityAudio, HighQualityV
                                                   LowQualityVideo, MediumQualityVideo)
 from youtubesearchpython import VideosSearch
 
-from ArrayCore.vc.queues import QUEUE, add_to_queue, get_queue
+from ArrayCore.Plguin import QUEUE, add_to_queue, get_queue
 from . import CHAT_TITLE, gen_thumb
 from .. import vcbot, call_py, HNDLR, SUDO_USERS
 
