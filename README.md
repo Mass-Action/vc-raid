@@ -52,10 +52,9 @@
 </details>
 
 # Credits 
-
+- [Vemon](https://github.com/Desinobita) ``Owner``
 - [HellBoy](https://github.com/HellBoy-OP) ``Dev``
 - [RiZoeL](https://github.com/MrRizoel) ``Dev``
-- [Vemon](https://github.com/Desinobita) ``Dev``
 - [pytgcalls](https://github.com/pytgcalls/pytgcalls)  
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
 
