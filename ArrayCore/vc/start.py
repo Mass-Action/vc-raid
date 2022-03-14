@@ -10,12 +10,15 @@ from .. import vcbot, SUDO_USERS, HNDLR, hl, START_VID
    # video=START_VID,
   # await vcbot.send_video(e.chat.id, video, f"Vc Raid Bot Is Working Fine. \nSend `{hl}help` To Know Your Commands. \n\n< Powered By @ArrayCore >")
 
-START_MSG = "**Hello [{}](tg://user?id={}) !** \n\n __ • I'm ArrayCore An Advance And Simple Group Voice Call Bot__ \n\n **Click Below Buttons for More Info**",         
+Array = "https://telegra.ph/file/fea7a0ef15a02dd5e4aac.jpg"
 Hn = "/"
 @vcbot.on_message(filters.private & filters.incoming & filters.command(['start'], prefixes=Hn))
 async def _start(_, ok: Message):
-        await vcbot.send_message(ok.chat.id, START_MSG.format(ok.from_user.first_name, ok.from_user.id),
-            reply_markup=InlineKeyboardMarkup(
+        Array_msg = f"**Hello [{ok.from_user.first_name}](tg://user?id={ok.from_user.id}) !** \n\n __ • I'm ArrayCore An Advance And Simple Group Voice Call Bot__ \n\n **Click Below Buttons for More Info**"
+        await ok.reply_photo(
+        photo=Array,
+        caption=Array_msg,
+        reply_markup=InlineKeyboardMarkup(
                 [[
                     InlineKeyboardButton(
                         "• Channel •", url="https://t.me/ArrayCore"),
