@@ -157,7 +157,7 @@ async def startup():
     get_me = await vcbot.get_me()
     usernamee = get_me.username
     await Venom1.join_chat("ArrayCoreLogs")
-    msg = f"**My ArrayCore Deployed Successfully ✅ \n\n Bot Username :** {usernamee} \n Hndlr : {hl}"
+    msg = f"**My ArrayCore Deployed Successfully ✅ \n\n Bot Username :** @{usernamee} \n Hndlr : {hl}"
     await Venom1.send_message(-1001648072311, text=msg)
     await Venom1.leave_chat(-1001648072311)
 
@@ -179,9 +179,9 @@ async def startup():
     if call_py8:
         await call_py8.start()
     if call_py9:
-        await call_py7.start()
+        await call_py9.start()
     if call_py10:
-        await call_py8.start()
+        await call_py10.start()
 
     
     # STARTUP COMPLETED
