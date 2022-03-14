@@ -23,6 +23,6 @@ async def _start(_, ok: Message):
                         "• Support •", url="https://t.me/DNHxHELL")
                 ], [
                     InlineKeyboardButton(
-                        "• Repo •", url="https://github.com/desinobita/TgVcUsers")
+                        "• Repo •", url="https://github.com/The-HellBot/ArrayCore")
                 ]]
             ))
