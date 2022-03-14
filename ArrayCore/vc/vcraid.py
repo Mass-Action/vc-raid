@@ -32,6 +32,9 @@ aud_list = [
     "./ArrayCore/Audio/AUD5.mp3",
     "./ArrayCore/Audio/AUD6.mp3",
     "./ArrayCore/Audio/AUD7.mp3",
+    "./ArrayCore/Audio/AUD8.mp3",
+    "./ArrayCore/Audio/AUD9.mp3",
+    "./ArrayCore/Audio/AUD10.mp3",
 ]
 
 
