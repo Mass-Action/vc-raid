@@ -1,4 +1,4 @@
-#@TheVenomXD
+#@TheVenomXD randi
 
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
@@ -14,8 +14,7 @@ START_MSG = "**Hello [{}](tg://user?id={}) !** \n\n __ • I'm ArrayCore An Adva
 Hn = "/"
 @vcbot.on_message(filters.private & filters.incoming & filters.command(['start'], prefixes=Hn))
 async def _start(_, ok: Message):
-        await vcbot.send_message(Message.chat.id,
-        text=START_MSG.format(Message.from_user.first_name, Message.from_user.id),
+        await vcbot.send_message(ok.chat.id, START_MSG.format(ok.from_user.first_name, ok.from_user.id),
             reply_markup=InlineKeyboardMarkup(
                 [[
                     InlineKeyboardButton(
