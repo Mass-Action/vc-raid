@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  worker:
+    build: .
+    environment:
+      API_ID: 
+      API_HASH:
+      SESSION:
+      GROUP_MODE:
+      HNDLR:
+      SUDO_USERS:
