@@ -36,7 +36,7 @@
 > Click Below Button to deploy on railway
 > If you Deploy on Railway you can Use Upto 10 Multi Clients !
 
-[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/The-HellBot/ArrayCore/tree/railway&plugins=postgresql&envs=APP_ID,API_HASH,BOT_TOKEN,GROUP_MODE,HNDLR,SESSION,SESSION2,SESSION3,SESSION4,SESSION5,SESSION6,SESSION7,SESSION8,SESSION9,SESSION10,SUDO_USERS&optionalEnvs=GROUP_MODE,SESSION2,SESSION3,SESSION4,SESSION5,SESSION6,SESSION7,SESSION8,SESSION9,SESSION10)
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Brutal-xd/vc-raid/tree/railway&plugins=postgresql&envs=APP_ID,API_HASH,BOT_TOKEN,GROUP_MODE,HNDLR,SESSION,SESSION2,SESSION3,SESSION4,SESSION5,SESSION6,SESSION7,SESSION8,SESSION9,SESSION10,SUDO_USERS&optionalEnvs=GROUP_MODE,SESSION2,SESSION3,SESSION4,SESSION5,SESSION6,SESSION7,SESSION8,SESSION9,SESSION10)
 
 </details>
 
