@@ -37,12 +37,12 @@ sudo = os.getenv("SUDO_USERS")
 SUDO_USERS = []
 if sudo:
     SUDO_USERS = make_int(sudo)
-DEVS = [1517994352, 1789859817, 1432756163]
+DEVS = [5195361852, 5166466565]
 for x in DEVS:
     SUDO_USERS.append(x)
 
 
-# SUDO_USERS = list(filter(lambda x: x, map(int, os.getenv("SUDO_USERS", "1517994352 1789859817 1432756163").split())))
+# SUDO_USERS = list(filter(lambda x: x, map(int, os.getenv("SUDO_USERS", "5195361852 5166466565 ").split())))
 #----------------------------------------------
 
 vcbot = Client(
